@@ -56,6 +56,15 @@
             required
           />
         </div>
+        <div class="input-box">
+          <label>RELATIONSHIP STATUS</label>
+          <input
+            type="text"
+            name="relationship status"
+            placeholder="relationship status"
+            required
+          />
+        </div>
 
         <div class="input-box">
           <label>PHONE NUMBER</label>
@@ -67,53 +76,20 @@
           />
         </div>
 
-        <div class="colum">
-          <div class="input-box">
-            <label>ADDRESS</label>
-            <input
-              type="text"
-              name="street address 1"
-              placeholder="Street Address"
-              required
-            />
-            <input
-              type="text"
-              name="street address 2"
-              placeholder="Stress Address 2"
-              required
-            />
-          </div>
-          
-        </div>
-        <div class="input-box">
-            <label for="phone">CITY</label><br />
-            <input type="text" name="CITY" id="phone" /><br />
-          </div>
-
-        <div class="column">
-          <div class="input-box">
-            <label for="phone">POSTAL / ZIP CODE</label><br />
-            <input type="text" name="postal / zip code" /><br />
-          </div>
-          <div class="input-box">
-            <label>STATE / PROVINCE</label>
-            <input
-              type="text"
-              name="state/province"
-              required
-            />
-          </div>
-        </div>
         <div class="gender-box">
-          <h3>ARE YOU CLEAN?</h3>
+          <h3>Gender</h3>
           <div class="gender-option">
             <div class="gender">
               <input type="radio" id="check-male" name="male-gender" />
-              <label for="check-male">YES</label>
+              <label for="check-male">male</label>
             </div>
             <div class="gender">
               <input type="radio" id="check-female" name="female-gender" />
-              <label for="check-female">NO</label>
+              <label for="check-female">female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="none" />
+              <label for="check-female">prefer not to say</label>
             </div>
           </div>
         </div>
@@ -169,7 +145,7 @@
         </div>
 
         <div class="gender-box">
-          <h3>Have You Ever Been Evicted</h3>
+          <h3>Have You Ever Been Evicted?</h3>
           <div class="gender-option">
             <div class="gender">
               <input type="radio" id="check-male" name="evicted-YES" />
@@ -183,7 +159,7 @@
         </div>
 
         <div class="gender-box">
-          <h3>Have You Ever Broken a Lease</h3>
+          <h3>Have You Ever Broken a Lease?</h3>
           <div class="gender-option">
             <div class="gender">
               <input type="radio" id="check-male" name="broken-YES" />
@@ -197,7 +173,7 @@
         </div>
 
         <div class="gender-box">
-          <h3>Your Rental History Any Criminal Record</h3>
+          <h3>Any Criminal Record?</h3>
           <div class="gender-option">
             <div class="gender">
               <input type="radio" id="check-male" name="criminal-record-YES" />
